@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D098343C2165BECC00DBFF22 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D098343B2165BECC00DBFF22 /* main.c */; };
+		D098344B2165BEF800DBFF22 /* WordList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09834422165BEF800DBFF22 /* WordList.cpp */; };
+		D098344C2165BEF800DBFF22 /* Translator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09834432165BEF800DBFF22 /* Translator.cpp */; };
+		D098344D2165BEF800DBFF22 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09834442165BEF800DBFF22 /* test.cpp */; };
+		D098344E2165BEF800DBFF22 /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09834452165BEF800DBFF22 /* Tokenizer.cpp */; };
+		D098344F2165BEF800DBFF22 /* Decrypter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09834462165BEF800DBFF22 /* Decrypter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		D09834382165BECC00DBFF22 /* Phrase_Decipher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Phrase_Decipher; sourceTree = BUILT_PRODUCTS_DIR; };
-		D098343B2165BECC00DBFF22 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D09834422165BEF800DBFF22 /* WordList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordList.cpp; sourceTree = "<group>"; };
+		D09834432165BEF800DBFF22 /* Translator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Translator.cpp; sourceTree = "<group>"; };
+		D09834442165BEF800DBFF22 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		D09834452165BEF800DBFF22 /* Tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tokenizer.cpp; sourceTree = "<group>"; };
+		D09834462165BEF800DBFF22 /* Decrypter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decrypter.cpp; sourceTree = "<group>"; };
+		D09834472165BEF800DBFF22 /* provided.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		D09834482165BEF800DBFF22 /* MyHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHash.h; sourceTree = "<group>"; };
+		D09834492165BEF800DBFF22 /* smalllist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smalllist.txt; sourceTree = "<group>"; };
+		D098344A2165BEF800DBFF22 /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		D098343A2165BECC00DBFF22 /* Phrase_Decipher */ = {
 			isa = PBXGroup;
 			children = (
-				D098343B2165BECC00DBFF22 /* main.c */,
+				D09834462165BEF800DBFF22 /* Decrypter.cpp */,
+				D09834482165BEF800DBFF22 /* MyHash.h */,
+				D09834472165BEF800DBFF22 /* provided.h */,
+				D09834492165BEF800DBFF22 /* smalllist.txt */,
+				D09834442165BEF800DBFF22 /* test.cpp */,
+				D09834452165BEF800DBFF22 /* Tokenizer.cpp */,
+				D09834432165BEF800DBFF22 /* Translator.cpp */,
+				D09834422165BEF800DBFF22 /* WordList.cpp */,
+				D098344A2165BEF800DBFF22 /* wordlist.txt */,
 			);
 			path = Phrase_Decipher;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D098343C2165BECC00DBFF22 /* main.c in Sources */,
+				D098344F2165BEF800DBFF22 /* Decrypter.cpp in Sources */,
+				D098344C2165BEF800DBFF22 /* Translator.cpp in Sources */,
+				D098344D2165BEF800DBFF22 /* test.cpp in Sources */,
+				D098344B2165BEF800DBFF22 /* WordList.cpp in Sources */,
+				D098344E2165BEF800DBFF22 /* Tokenizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
